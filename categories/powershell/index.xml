@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Powershell on My New Hugo Site</title>
-    <link>http://example.org/categories/powershell/index.xml</link>
-    <description>Recent content in Powershell on My New Hugo Site</description>
+    <title>Powershell on Live Average</title>
+    <link>https://liveaverage.github.io/categories/powershell/index.xml</link>
+    <description>Recent content in Powershell on Live Average</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://example.org/categories/powershell/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://liveaverage.github.io/categories/powershell/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Powershell: Bulk provision DHCP Scopes</title>
-      <link>http://example.org/features/coding/powershell-bulk-provision-dhcp-scopes/</link>
+      <link>https://liveaverage.github.io/features/coding/powershell-bulk-provision-dhcp-scopes/</link>
       <pubDate>Wed, 30 Jul 2014 21:08:10 +0000</pubDate>
       
-      <guid>http://example.org/features/coding/powershell-bulk-provision-dhcp-scopes/</guid>
+      <guid>https://liveaverage.github.io/features/coding/powershell-bulk-provision-dhcp-scopes/</guid>
       <description>&lt;p&gt;Thought I&amp;#8217;d share a nice wrapper for netsh and dnscmd calls to allow easy, bulk provisioning of new DHCP scopes. It&amp;#8217;s nice being able to provision a ton of these at once by piping the output from Import-CSV!&lt;/p&gt;
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;

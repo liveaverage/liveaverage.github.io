@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Abouts on My New Hugo Site</title>
-    <link>http://example.org/about/index.xml</link>
-    <description>Recent content in Abouts on My New Hugo Site</description>
+    <title>Abouts on Live Average</title>
+    <link>https://liveaverage.github.io/about/index.xml</link>
+    <description>Recent content in Abouts on Live Average</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 25 Apr 2008 16:42:48 +0000</lastBuildDate>
-    <atom:link href="http://example.org/about/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://liveaverage.github.io/about/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Who’s we?</title>
-      <link>http://example.org/about/</link>
+      <link>https://liveaverage.github.io/about/</link>
       <pubDate>Fri, 25 Apr 2008 16:42:48 +0000</pubDate>
       
-      <guid>http://example.org/about/</guid>
+      <guid>https://liveaverage.github.io/about/</guid>
       <description>&lt;p&gt;**&lt;img class=&#34;alignleft size-full wp-image-333&#34; style=&#34;border: 1px solid black; margin: 5px;&#34; title=&#34;JRM&#34; src=&#34;http://liveaverage.com/wp-content/themes/mimbo2.2/images/JRM.jpg&#34; alt=&#34;&#34; width=&#34;269&#34; height=&#34;178&#34; /&gt;There&amp;#8217;s not really a &amp;#8216;we&amp;#8217;, more of a &amp;#8230;&lt;/p&gt;
 
 &lt;p&gt;Me:**&lt;/p&gt;

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Perl Zimbra Zmprov Provisioning on My New Hugo Site</title>
-    <link>http://example.org/tags/perl-zimbra-zmprov-provisioning/index.xml</link>
-    <description>Recent content in Perl Zimbra Zmprov Provisioning on My New Hugo Site</description>
+    <title>Perl Zimbra Zmprov Provisioning on Live Average</title>
+    <link>https://liveaverage.github.io/tags/perl-zimbra-zmprov-provisioning/index.xml</link>
+    <description>Recent content in Perl Zimbra Zmprov Provisioning on Live Average</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://example.org/tags/perl-zimbra-zmprov-provisioning/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://liveaverage.github.io/tags/perl-zimbra-zmprov-provisioning/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Perl my way to happiness</title>
-      <link>http://example.org/features/coding/perl-my-way-to-happiness/</link>
+      <link>https://liveaverage.github.io/features/coding/perl-my-way-to-happiness/</link>
       <pubDate>Fri, 25 Apr 2008 19:00:49 +0000</pubDate>
       
-      <guid>http://example.org/features/coding/perl-my-way-to-happiness/</guid>
+      <guid>https://liveaverage.github.io/features/coding/perl-my-way-to-happiness/</guid>
       <description>&lt;p&gt;If only everything was as easy &amp;amp; straight-forward as account provisioning in Zimbra:&lt;/p&gt;
 
 &lt;p&gt;[shell]!/usr/bin/perl&lt;/p&gt;

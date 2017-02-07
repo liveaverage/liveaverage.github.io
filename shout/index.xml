@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Shouts on My New Hugo Site</title>
-    <link>http://example.org/shout/index.xml</link>
-    <description>Recent content in Shouts on My New Hugo Site</description>
+    <title>Shouts on Live Average</title>
+    <link>https://liveaverage.github.io/shout/index.xml</link>
+    <description>Recent content in Shouts on Live Average</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 08 May 2012 21:39:11 +0000</lastBuildDate>
-    <atom:link href="http://example.org/shout/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://liveaverage.github.io/shout/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Shout</title>
-      <link>http://example.org/shout/</link>
+      <link>https://liveaverage.github.io/shout/</link>
       <pubDate>Tue, 08 May 2012 21:39:11 +0000</pubDate>
       
-      <guid>http://example.org/shout/</guid>
+      <guid>https://liveaverage.github.io/shout/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;**What are you sinking about?&lt;/p&gt;
 

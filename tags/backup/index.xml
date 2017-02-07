@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Backup on My New Hugo Site</title>
-    <link>http://example.org/tags/backup/index.xml</link>
-    <description>Recent content in Backup on My New Hugo Site</description>
+    <title>Backup on Live Average</title>
+    <link>https://liveaverage.github.io/tags/backup/index.xml</link>
+    <description>Recent content in Backup on Live Average</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://example.org/tags/backup/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://liveaverage.github.io/tags/backup/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Bashing MySQL Dumps</title>
-      <link>http://example.org/features/coding/bashing-mysql-dumps/</link>
+      <link>https://liveaverage.github.io/features/coding/bashing-mysql-dumps/</link>
       <pubDate>Tue, 29 Jul 2008 14:45:14 +0000</pubDate>
       
-      <guid>http://example.org/features/coding/bashing-mysql-dumps/</guid>
+      <guid>https://liveaverage.github.io/features/coding/bashing-mysql-dumps/</guid>
       <description>&lt;p&gt;A quick set of batch scripts I wrote up (two of the three scripts, anyway) for dumping all of my (specified) MySQL databases into an archive for backup. The log mailing (&lt;strong&gt;emailsql.pl&lt;/strong&gt;)requires Perl and the MIME:Lite module to correctly function. I&amp;#8217;ve also utilized a wrapper script so the log outputs to a separate file [to be mailed]. There&amp;#8217;s also a &amp;#8216;dummy&amp;#8217; log file I use in my crontab file, though this isn&amp;#8217;t really necessary:&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;

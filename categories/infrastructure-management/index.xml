@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Infrastructure Management on My New Hugo Site</title>
-    <link>http://example.org/categories/infrastructure-management/index.xml</link>
-    <description>Recent content in Infrastructure Management on My New Hugo Site</description>
+    <title>Infrastructure Management on Live Average</title>
+    <link>https://liveaverage.github.io/categories/infrastructure-management/index.xml</link>
+    <description>Recent content in Infrastructure Management on Live Average</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://example.org/categories/infrastructure-management/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://liveaverage.github.io/categories/infrastructure-management/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Check_MK Environmental Monitoring: Room Alert 4E</title>
-      <link>http://example.org/features/infrastructure-management/check_mk-envrionmental-monitoring-room-alert-4e/</link>
+      <link>https://liveaverage.github.io/features/infrastructure-management/check_mk-envrionmental-monitoring-room-alert-4e/</link>
       <pubDate>Wed, 13 Aug 2014 16:32:32 +0000</pubDate>
       
-      <guid>http://example.org/features/infrastructure-management/check_mk-envrionmental-monitoring-room-alert-4e/</guid>
+      <guid>https://liveaverage.github.io/features/infrastructure-management/check_mk-envrionmental-monitoring-room-alert-4e/</guid>
       <description>&lt;p&gt;One of our Network Engineers needed some monitoring (internal temp, external temp, and external humidity) added for an &lt;a href=&#34;http://avtech.com/Products/Environment_Monitors/Room_Alert_4E.htm&#34; title=&#34;Room Alert 4e&#34;&gt;AVTech Room Alert 4E unit&lt;/a&gt;, preferably using a check_MK plugin. Couldn&amp;#8217;t find one in any repos or in git, so decided to add this to a growing collection of plugins I&amp;#8217;ve been working on. Another request from the same team: MinuteMan UPS units. I&amp;#8217;ll be adding to my &lt;a title=&#34;Check_MK_Bag&#34; href=&#34;https://github.com/liveaverage/check_mk_bag&#34; target=&#34;_blank&#34;&gt;check_mk_bag g&lt;/a&gt;it repo periodically with any new, custom check plugins. I&amp;#8217;ll also try to get these on &lt;a href=&#34;http://exchange.check-mk.org/&#34; target=&#34;_blank&#34;&gt;Check_MK&amp;#8217;s Exchange&lt;/a&gt;. For now, here&amp;#8217;s some environmental monitors, of course with perfdata output &amp;#8212; gotta have the metrics available for trending!&lt;/p&gt;
 
 &lt;p&gt;As typical with check_MK checks, this supports auto-inventory (scan function configured):&lt;/p&gt;
@@ -72,10 +72,10 @@ check_info[&#34;ra4e_sensor_temp&#34;] = {
     
     <item>
       <title>Making Cisco Identity Firewall, CDA, and ISE play nice</title>
-      <link>http://example.org/features/coding/making-cisco-identity-firewall-and-ise-play-nice/</link>
+      <link>https://liveaverage.github.io/features/coding/making-cisco-identity-firewall-and-ise-play-nice/</link>
       <pubDate>Thu, 07 Aug 2014 14:03:32 +0000</pubDate>
       
-      <guid>http://example.org/features/coding/making-cisco-identity-firewall-and-ise-play-nice/</guid>
+      <guid>https://liveaverage.github.io/features/coding/making-cisco-identity-firewall-and-ise-play-nice/</guid>
       <description>&lt;p&gt;As of Cisco CDA Patch 2, identity mappings provided via Cisco ISE are natively supported. This means you can authenticate against ISE, which may in turn authenticate against LDAP or Active Directory, and subsequently notify one or more Cisco CDA servers that a new user-to-IP mapping exists. Cisco accomplishes this exchange of authenticated identities via syslog messages. ISE is configured to forward syslog messages to the CDA server(s), and the CDA server(s) have the sending ISE server(s) configured as a syslog &amp;#8220;client.&amp;#8221;&lt;figure id=&#34;attachment_7493&#34; style=&#34;width: 300px&#34; class=&#34;wp-caption alignleft&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://liveaverage.com/wp-content/themes/mimbo2.2/images/20140729_IDFW_Identity_Digestion_ISE.jpg&#34;&gt;&lt;img class=&#34;size-medium wp-image-7493&#34; src=&#34;http://liveaverage.com/wp-content/themes/mimbo2.2/images/20140729_IDFW_Identity_Digestion_ISE-300x232.jpg&#34; alt=&#34;Visio of Cisco IDFW Identity Digestion from ISE&#34; width=&#34;300&#34; height=&#34;232&#34; srcset=&#34;http://liveaverage.com/wp-content/themes/mimbo2.2/images/20140729_IDFW_Identity_Digestion_ISE-300x232.jpg 300w, http://liveaverage.com/wp-content/themes/mimbo2.2/images/20140729_IDFW_Identity_Digestion_ISE.jpg 748w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;&lt;figcaption class=&#34;wp-caption-text&#34;&gt;Cisco IDFW Identity Digestion from ISE via Syslog-NG&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
@@ -221,10 +221,10 @@ log {   source(s_network);
     
     <item>
       <title>Check_MK: Local Checks Grab Bag!</title>
-      <link>http://example.org/features/coding/check_mk-local-checks-grab-bag/</link>
+      <link>https://liveaverage.github.io/features/coding/check_mk-local-checks-grab-bag/</link>
       <pubDate>Tue, 29 Jul 2014 15:32:29 +0000</pubDate>
       
-      <guid>http://example.org/features/coding/check_mk-local-checks-grab-bag/</guid>
+      <guid>https://liveaverage.github.io/features/coding/check_mk-local-checks-grab-bag/</guid>
       <description>&lt;p&gt;Some local Check_MK checks that were created to execute check_MK local check scripts (Powershell) in 64-bit context, monitor Exchange 2007 health (Storage Group replication status, Log Truncation after backups, etc.), and monitor DNS scavenging on Windows servers:&lt;/p&gt;
 
 &lt;div class=&#34;code-embed-wrapper&#34;&gt;
@@ -297,10 +297,10 @@ $global:n_stattext = &#34;&#34;
     
     <item>
       <title>Check_MK DFS Backlog Monitoring</title>
-      <link>http://example.org/news/check_mk-dfs-backlog-monitoring/</link>
+      <link>https://liveaverage.github.io/news/check_mk-dfs-backlog-monitoring/</link>
       <pubDate>Wed, 12 Feb 2014 14:29:23 +0000</pubDate>
       
-      <guid>http://example.org/news/check_mk-dfs-backlog-monitoring/</guid>
+      <guid>https://liveaverage.github.io/news/check_mk-dfs-backlog-monitoring/</guid>
       <description>&lt;figure id=&#34;attachment_3968&#34; style=&#34;width: 715px&#34; class=&#34;wp-caption alignright&#34;&gt;[&lt;img class=&#34;size-large wp-image-3968 &#34; alt=&#34;Screenshot of inventoried replicated folders and their corresponding backlog counts&#34; src=&#34;http://liveaverage.com/wp-content/themes/mimbo2.2/images/20131111_CheckMK_DFSRBacklog-1024x195.jpg&#34; width=&#34;715&#34; height=&#34;136&#34; srcset=&#34;http://liveaverage.com/wp-content/themes/mimbo2.2/images/20131111_CheckMK_DFSRBacklog-300x57.jpg 300w, http://liveaverage.com/wp-content/themes/mimbo2.2/images/20131111_CheckMK_DFSRBacklog-1024x195.jpg 1024w, http://liveaverage.com/wp-content/themes/mimbo2.2/images/20131111_CheckMK_DFSRBacklog.jpg 1232w&#34; sizes=&#34;(max-width: 715px) 100vw, 715px&#34; /&gt;][1]&lt;figcaption class=&#34;wp-caption-text&#34;&gt;Inventoried replicated folders and their corresponding backlog counts&lt;/figcaption&gt;&lt;/figure&gt; 
 
 &lt;p&gt;Before you even get started, make sure your Powershell execution policy is set to &lt;strong&gt;RemoteSigned &lt;/strong&gt;for your standard AND x86 Powershell console; Check_MK will generally execute PS scripts from the x86 console, so it&amp;#8217;s critical to set the policy for both:&lt;/p&gt;
@@ -394,10 +394,10 @@ Function PingCheck
     
     <item>
       <title>Extending Check_MK MySQL Status Output</title>
-      <link>http://example.org/features/infrastructure-management/extending-check_mk-mysql-status-output/</link>
+      <link>https://liveaverage.github.io/features/infrastructure-management/extending-check_mk-mysql-status-output/</link>
       <pubDate>Mon, 25 Mar 2013 14:44:21 +0000</pubDate>
       
-      <guid>http://example.org/features/infrastructure-management/extending-check_mk-mysql-status-output/</guid>
+      <guid>https://liveaverage.github.io/features/infrastructure-management/extending-check_mk-mysql-status-output/</guid>
       <description>&lt;p&gt;If you need more output than what the existing &lt;a title=&#34;Check_MK Plugin: Check of MySQL Variables&#34; href=&#34;http://exchange.check-mk.org/index.php?option=com_remository&amp;Itemid=59&amp;func=fileinfo&amp;id=20&#34; target=&#34;_blank&#34;&gt;Check of MySQL Status Variables&lt;/a&gt; includes, such as &lt;em&gt;Seconds_Behind_Master&lt;/em&gt; or &lt;em&gt;Relay_Log_Pos&lt;/em&gt;, consider adding a quick line to the bash call for _mysql&lt;em&gt;status&lt;/em&gt; on the agent. This assumes you&amp;#8217;ve installed themysql_status-1.0.1.mkp and deployed the necessary agent files to the servers you&amp;#8217;d like to monitor. This also assumes you&amp;#8217;ve correctly configured the credentials needed to run the plugin and successfully receive (standard) output from the agent plugin.&lt;/p&gt;
 
 &lt;p&gt;Now to get Slave Status information from the same plugin:&lt;/p&gt;
@@ -501,10 +501,10 @@ Function PingCheck
     
     <item>
       <title>Powershell Script: Sync DHCP Reservations (Windows Server 2008)</title>
-      <link>http://example.org/features/coding/powershell-script-sync-dhcp-reservations-windows-server-2008/</link>
+      <link>https://liveaverage.github.io/features/coding/powershell-script-sync-dhcp-reservations-windows-server-2008/</link>
       <pubDate>Wed, 14 Nov 2012 14:11:56 +0000</pubDate>
       
-      <guid>http://example.org/features/coding/powershell-script-sync-dhcp-reservations-windows-server-2008/</guid>
+      <guid>https://liveaverage.github.io/features/coding/powershell-script-sync-dhcp-reservations-windows-server-2008/</guid>
       <description>&lt;p&gt;If you have redundant Windows 2008 DHCP servers (likely with split-scope configurations), you&amp;#8217;re familiar with the problem of keeping reservations between the servers synchronized. I figured I&amp;#8217;d post a script I created to sync reservations between servers. Synchronization can be 1-to-1 or 1-to-many, depending on your redundant DHCP server configuration. This script can sync with ALL authorized DHCP servers in a domain if needed. Make sure to read the included Powershell help information. This doesn&amp;#8217;t come with any warranty, but I&amp;#8217;d be glad to answer any questions or consider suggestions for improvement. In my environment, this simply runs as a scheduled task on the secondary DHCP server.&lt;/p&gt;
 
 &lt;p&gt;Something to note: although it *should* work synchronizing to/from Windows Server 2003 servers, I had issues with remote netsh execution (noted in the  script comments below) from W7/2008 systems. I&amp;#8217;ve commented out the offending section that handled 2003 DHCP servers since everyone should, realistically, be running a newer server OS. If there&amp;#8217;s a major need to have 2003 DHCP reservation synchronization, ask and I might be able to spend some more time on the problem. I&amp;#8217;ve since migrated from 2003 to 2008, so there wasn&amp;#8217;t a need to handle these situations.&lt;/p&gt;
@@ -911,10 +911,10 @@ $log&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Nagios check_http problems with Microsoft System Center 2012 Endpoint Protection</title>
-      <link>http://example.org/news/nagios-check_http-problems-with-microsoft-system-center-2012-endpoint-protection/</link>
+      <link>https://liveaverage.github.io/news/nagios-check_http-problems-with-microsoft-system-center-2012-endpoint-protection/</link>
       <pubDate>Wed, 07 Nov 2012 22:25:03 +0000</pubDate>
       
-      <guid>http://example.org/news/nagios-check_http-problems-with-microsoft-system-center-2012-endpoint-protection/</guid>
+      <guid>https://liveaverage.github.io/news/nagios-check_http-problems-with-microsoft-system-center-2012-endpoint-protection/</guid>
       <description>&lt;p&gt;Someone important suggested this get posted &lt;em&gt;somewhere&lt;/em&gt; so that anyone else experiencing&lt;strong&gt; check_http&lt;/strong&gt; socket timeout problems with client/servers running Microsoft System Center 2012 Endpoint Protection would have a clue as to what could be causing issues:&lt;/p&gt;
 
 &lt;p&gt;If you&amp;#8217;re receiving strange/unexpected timeouts from the check_http plug-in when running it against a server using Microsoft System Center 2012 Endpoint Protection, the Network Inspection Service may be blocking your check attempt.&lt;/p&gt;
@@ -927,10 +927,10 @@ $log&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Powershell Script: Windows Event Log Retention and Compression</title>
-      <link>http://example.org/features/coding/powershell-script-windows-event-log-retention-and-compression/</link>
+      <link>https://liveaverage.github.io/features/coding/powershell-script-windows-event-log-retention-and-compression/</link>
       <pubDate>Wed, 07 Nov 2012 22:12:34 +0000</pubDate>
       
-      <guid>http://example.org/features/coding/powershell-script-windows-event-log-retention-and-compression/</guid>
+      <guid>https://liveaverage.github.io/features/coding/powershell-script-windows-event-log-retention-and-compression/</guid>
       <description>&lt;p&gt;Windows Security event logs fill up fast when you have Directory Service Access Auditing enabled, for &lt;a title=&#34;Tracking DNS Deletions&#34; href=&#34;http://blogs.technet.com/b/networking/archive/2011/08/17/tracking-dns-record-deletion.aspx&#34; target=&#34;_blank&#34;&gt;whatever reason&lt;/a&gt;. If I want to retain any useful information, I need at least 7 to 14 days of logs to review, in my case, the DNS scavenging process. The built-in &amp;#8216;Archive log when full&amp;#8217; option doesn&amp;#8217;t really help out as much as you&amp;#8217;d think, particularly when I might have 2 or 3 logs (each 300MB) per day. I poked around Windows Server 2008 looking for options to increase the quantity of archive logs, but I couldn&amp;#8217;t find any applicable settings to change. Even if I did find something, how many 300MB logs can I afford to keep around?&lt;/p&gt;
 
 &lt;p&gt;I opted for a retention script to compress and managed 30 days worth of logs (not just 30 logs, 30 days worth). This uses native compression (no extension or third-party utilities/binaries required). After compression, my log sizes drop from ~300MB to 29-30MB.  This roughly equates to 90MB per day, assuming 3x300MB raw archive logs are used.&lt;/p&gt;
@@ -1225,10 +1225,10 @@ $log&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Nagios Plugin: Windows Server DHCP Scopes Usage Monitoring</title>
-      <link>http://example.org/news/nagios-plugin-windows-server-dhcp-scopes-usage-monitoring/</link>
+      <link>https://liveaverage.github.io/news/nagios-plugin-windows-server-dhcp-scopes-usage-monitoring/</link>
       <pubDate>Fri, 13 Apr 2012 16:03:59 +0000</pubDate>
       
-      <guid>http://example.org/news/nagios-plugin-windows-server-dhcp-scopes-usage-monitoring/</guid>
+      <guid>https://liveaverage.github.io/news/nagios-plugin-windows-server-dhcp-scopes-usage-monitoring/</guid>
       <description>&lt;p&gt;I&amp;#8217;ve stumbled on a &lt;a title=&#34;Link to original check_dhcp_pool plug-in from Lars Michelsen&#34; href=&#34;http://nagios.larsmichelsen.com/check_dhcp_pool/&#34; target=&#34;_blank&#34;&gt;useful plug-in from Lars Michelsen&lt;/a&gt; that easily monitors a single Windows Server DHCP scope for usage using SNMPv2, but found this fell short of what I needed for monitoring several scopes at once. I&amp;#8217;ve modified Lars&amp;#8217; original plugin/script to accommodate all available DHCP scopes on your monitored Windows server. You no longer need to add separate service definitions to monitor all available scopes. It&amp;#8217;s worth noting a couple of important details:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -1305,10 +1305,10 @@ RETC=0&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>OpenFiler errors that only I seemed to experience…</title>
-      <link>http://example.org/features/coding/openfiler-errors-that-only-i-seemed-to-experience/</link>
+      <link>https://liveaverage.github.io/features/coding/openfiler-errors-that-only-i-seemed-to-experience/</link>
       <pubDate>Tue, 26 Jul 2011 16:51:03 +0000</pubDate>
       
-      <guid>http://example.org/features/coding/openfiler-errors-that-only-i-seemed-to-experience/</guid>
+      <guid>https://liveaverage.github.io/features/coding/openfiler-errors-that-only-i-seemed-to-experience/</guid>
       <description>&lt;p&gt;Well, I&amp;#8217;ve finally deployed some production Openfiler ESA 2.99.1 machines as home-brew iSCSI boxes, primarily used for backups or low-stress virtual storage. Yes, they&amp;#8217;re great &amp;#8212; my basic write speeds on a Core 2 Duo box (recycled Dell Precision 390 workstation with 2GB of RAM and a single 1TB drive *no* RAID):&lt;/p&gt;
 
 &lt;p&gt;[shell]&lt;/p&gt;
@@ -1367,10 +1367,10 @@ RETC=0&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>New fun with old toys: Adtran Atlas 550 &#43; Free 411</title>
-      <link>http://example.org/features/infrastructure-management/new-fun-with-old-toys-adtran-atlas-550-free-411/</link>
+      <link>https://liveaverage.github.io/features/infrastructure-management/new-fun-with-old-toys-adtran-atlas-550-free-411/</link>
       <pubDate>Wed, 08 Jul 2009 21:10:26 +0000</pubDate>
       
-      <guid>http://example.org/features/infrastructure-management/new-fun-with-old-toys-adtran-atlas-550-free-411/</guid>
+      <guid>https://liveaverage.github.io/features/infrastructure-management/new-fun-with-old-toys-adtran-atlas-550-free-411/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;file:///C:/DOCUME~1/ADMIN~1.IT0/LOCALS~1/Temp/moz-screenshot-11.jpg&#34; alt=&#34;&#34; /&gt;&lt;img class=&#34;alignleft&#34; style=&#34;margin: 10px;&#34; title=&#34;Goog-411&#34; src=&#34;http://www.google.com/images/logos/goog-411_logo.png&#34; alt=&#34;Goog-411 is a spectacular, free alternative to traditional directory svc.&#34; width=&#34;209&#34; height=&#34;40&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;As a result of my frugality, I got my hands on an Adtran Atlas 550 to be used for partitioning a single PRI into two PRIs at my workplace. In addition to the partitioning, this system provides the added bonus of dynamic number substitution. What&amp;#8217;s this mean for me? Substituting costly 411 directory service for free Goog-411 service (which I prefer over traditional 411). I&amp;#8217;m also able to create a number rejection list to block those NSFW 900* calls [or variation thereof], but the number substitution templates seem much more interesting&amp;#8230;&lt;/p&gt;
@@ -1394,10 +1394,10 @@ RETC=0&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Shuttle PC MyKover Template</title>
-      <link>http://example.org/features/infrastructure-management/shuttle-pc-mykover-template/</link>
+      <link>https://liveaverage.github.io/features/infrastructure-management/shuttle-pc-mykover-template/</link>
       <pubDate>Tue, 27 Jan 2009 16:34:16 +0000</pubDate>
       
-      <guid>http://example.org/features/infrastructure-management/shuttle-pc-mykover-template/</guid>
+      <guid>https://liveaverage.github.io/features/infrastructure-management/shuttle-pc-mykover-template/</guid>
       <description>&lt;p&gt;After deploying a few &lt;a title=&#34;Looking for Shuttle KPC K45 Systems? Look no further than Newegg.&#34; href=&#34;http://www.newegg.com/Product/Product.aspx?Item=N82E16856101069&#34; target=&#34;_blank&#34;&gt;Shuttle KPC K45 systems&lt;/a&gt; for UTM (Unified Threat Management) appliances using Untangle 5.42 and 6.00 I got tired of fussing with Shuttle&amp;#8217;s MyKover JPEG template(s) and opted to create my own to-scale Word Document template. Feel free to change the included background image and text, I just left that on there for reference. And yes, the screw hole markings are correctly (or nearly correctly) placed.&lt;/p&gt;
 
 &lt;p&gt;I enjoyed the coffee cover included with the barebone system, but opted for something customized that would allow remote clients to phone in service-calls with all the important information (Local/WAN IP, MAC, FQDN, etc.) required for troubleshooting. Hope this helps someone out who might be looking for a better template than the one provided by Shuttle&amp;#8217;s site.&lt;/p&gt;

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Coding on My New Hugo Site</title>
-    <link>http://example.org/categories/coding/index.xml</link>
-    <description>Recent content in Coding on My New Hugo Site</description>
+    <title>Coding on Live Average</title>
+    <link>https://liveaverage.github.io/categories/coding/index.xml</link>
+    <description>Recent content in Coding on Live Average</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://example.org/categories/coding/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://liveaverage.github.io/categories/coding/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Making Cisco Identity Firewall, CDA, and ISE play nice</title>
-      <link>http://example.org/features/coding/making-cisco-identity-firewall-and-ise-play-nice/</link>
+      <link>https://liveaverage.github.io/features/coding/making-cisco-identity-firewall-and-ise-play-nice/</link>
       <pubDate>Thu, 07 Aug 2014 14:03:32 +0000</pubDate>
       
-      <guid>http://example.org/features/coding/making-cisco-identity-firewall-and-ise-play-nice/</guid>
+      <guid>https://liveaverage.github.io/features/coding/making-cisco-identity-firewall-and-ise-play-nice/</guid>
       <description>&lt;p&gt;As of Cisco CDA Patch 2, identity mappings provided via Cisco ISE are natively supported. This means you can authenticate against ISE, which may in turn authenticate against LDAP or Active Directory, and subsequently notify one or more Cisco CDA servers that a new user-to-IP mapping exists. Cisco accomplishes this exchange of authenticated identities via syslog messages. ISE is configured to forward syslog messages to the CDA server(s), and the CDA server(s) have the sending ISE server(s) configured as a syslog &amp;#8220;client.&amp;#8221;&lt;figure id=&#34;attachment_7493&#34; style=&#34;width: 300px&#34; class=&#34;wp-caption alignleft&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://liveaverage.com/wp-content/themes/mimbo2.2/images/20140729_IDFW_Identity_Digestion_ISE.jpg&#34;&gt;&lt;img class=&#34;size-medium wp-image-7493&#34; src=&#34;http://liveaverage.com/wp-content/themes/mimbo2.2/images/20140729_IDFW_Identity_Digestion_ISE-300x232.jpg&#34; alt=&#34;Visio of Cisco IDFW Identity Digestion from ISE&#34; width=&#34;300&#34; height=&#34;232&#34; srcset=&#34;http://liveaverage.com/wp-content/themes/mimbo2.2/images/20140729_IDFW_Identity_Digestion_ISE-300x232.jpg 300w, http://liveaverage.com/wp-content/themes/mimbo2.2/images/20140729_IDFW_Identity_Digestion_ISE.jpg 748w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;&lt;figcaption class=&#34;wp-caption-text&#34;&gt;Cisco IDFW Identity Digestion from ISE via Syslog-NG&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
@@ -159,10 +159,10 @@ log {   source(s_network);
     
     <item>
       <title>Powershell: Bulk provision DHCP Scopes</title>
-      <link>http://example.org/features/coding/powershell-bulk-provision-dhcp-scopes/</link>
+      <link>https://liveaverage.github.io/features/coding/powershell-bulk-provision-dhcp-scopes/</link>
       <pubDate>Wed, 30 Jul 2014 21:08:10 +0000</pubDate>
       
-      <guid>http://example.org/features/coding/powershell-bulk-provision-dhcp-scopes/</guid>
+      <guid>https://liveaverage.github.io/features/coding/powershell-bulk-provision-dhcp-scopes/</guid>
       <description>&lt;p&gt;Thought I&amp;#8217;d share a nice wrapper for netsh and dnscmd calls to allow easy, bulk provisioning of new DHCP scopes. It&amp;#8217;s nice being able to provision a ton of these at once by piping the output from Import-CSV!&lt;/p&gt;
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
@@ -218,10 +218,10 @@ log {   source(s_network);
     
     <item>
       <title>Check_MK: Local Checks Grab Bag!</title>
-      <link>http://example.org/features/coding/check_mk-local-checks-grab-bag/</link>
+      <link>https://liveaverage.github.io/features/coding/check_mk-local-checks-grab-bag/</link>
       <pubDate>Tue, 29 Jul 2014 15:32:29 +0000</pubDate>
       
-      <guid>http://example.org/features/coding/check_mk-local-checks-grab-bag/</guid>
+      <guid>https://liveaverage.github.io/features/coding/check_mk-local-checks-grab-bag/</guid>
       <description>&lt;p&gt;Some local Check_MK checks that were created to execute check_MK local check scripts (Powershell) in 64-bit context, monitor Exchange 2007 health (Storage Group replication status, Log Truncation after backups, etc.), and monitor DNS scavenging on Windows servers:&lt;/p&gt;
 
 &lt;div class=&#34;code-embed-wrapper&#34;&gt;
@@ -294,10 +294,10 @@ $global:n_stattext = &#34;&#34;
     
     <item>
       <title>Powershell Script: Sync DHCP Reservations (Windows Server 2008)</title>
-      <link>http://example.org/features/coding/powershell-script-sync-dhcp-reservations-windows-server-2008/</link>
+      <link>https://liveaverage.github.io/features/coding/powershell-script-sync-dhcp-reservations-windows-server-2008/</link>
       <pubDate>Wed, 14 Nov 2012 14:11:56 +0000</pubDate>
       
-      <guid>http://example.org/features/coding/powershell-script-sync-dhcp-reservations-windows-server-2008/</guid>
+      <guid>https://liveaverage.github.io/features/coding/powershell-script-sync-dhcp-reservations-windows-server-2008/</guid>
       <description>&lt;p&gt;If you have redundant Windows 2008 DHCP servers (likely with split-scope configurations), you&amp;#8217;re familiar with the problem of keeping reservations between the servers synchronized. I figured I&amp;#8217;d post a script I created to sync reservations between servers. Synchronization can be 1-to-1 or 1-to-many, depending on your redundant DHCP server configuration. This script can sync with ALL authorized DHCP servers in a domain if needed. Make sure to read the included Powershell help information. This doesn&amp;#8217;t come with any warranty, but I&amp;#8217;d be glad to answer any questions or consider suggestions for improvement. In my environment, this simply runs as a scheduled task on the secondary DHCP server.&lt;/p&gt;
 
 &lt;p&gt;Something to note: although it *should* work synchronizing to/from Windows Server 2003 servers, I had issues with remote netsh execution (noted in the  script comments below) from W7/2008 systems. I&amp;#8217;ve commented out the offending section that handled 2003 DHCP servers since everyone should, realistically, be running a newer server OS. If there&amp;#8217;s a major need to have 2003 DHCP reservation synchronization, ask and I might be able to spend some more time on the problem. I&amp;#8217;ve since migrated from 2003 to 2008, so there wasn&amp;#8217;t a need to handle these situations.&lt;/p&gt;
@@ -704,10 +704,10 @@ $log&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Powershell Script: Windows Event Log Retention and Compression</title>
-      <link>http://example.org/features/coding/powershell-script-windows-event-log-retention-and-compression/</link>
+      <link>https://liveaverage.github.io/features/coding/powershell-script-windows-event-log-retention-and-compression/</link>
       <pubDate>Wed, 07 Nov 2012 22:12:34 +0000</pubDate>
       
-      <guid>http://example.org/features/coding/powershell-script-windows-event-log-retention-and-compression/</guid>
+      <guid>https://liveaverage.github.io/features/coding/powershell-script-windows-event-log-retention-and-compression/</guid>
       <description>&lt;p&gt;Windows Security event logs fill up fast when you have Directory Service Access Auditing enabled, for &lt;a title=&#34;Tracking DNS Deletions&#34; href=&#34;http://blogs.technet.com/b/networking/archive/2011/08/17/tracking-dns-record-deletion.aspx&#34; target=&#34;_blank&#34;&gt;whatever reason&lt;/a&gt;. If I want to retain any useful information, I need at least 7 to 14 days of logs to review, in my case, the DNS scavenging process. The built-in &amp;#8216;Archive log when full&amp;#8217; option doesn&amp;#8217;t really help out as much as you&amp;#8217;d think, particularly when I might have 2 or 3 logs (each 300MB) per day. I poked around Windows Server 2008 looking for options to increase the quantity of archive logs, but I couldn&amp;#8217;t find any applicable settings to change. Even if I did find something, how many 300MB logs can I afford to keep around?&lt;/p&gt;
 
 &lt;p&gt;I opted for a retention script to compress and managed 30 days worth of logs (not just 30 logs, 30 days worth). This uses native compression (no extension or third-party utilities/binaries required). After compression, my log sizes drop from ~300MB to 29-30MB.  This roughly equates to 90MB per day, assuming 3x300MB raw archive logs are used.&lt;/p&gt;
@@ -1002,10 +1002,10 @@ $log&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Nagios Plugin: Windows Server DHCP Scopes Usage Monitoring</title>
-      <link>http://example.org/news/nagios-plugin-windows-server-dhcp-scopes-usage-monitoring/</link>
+      <link>https://liveaverage.github.io/news/nagios-plugin-windows-server-dhcp-scopes-usage-monitoring/</link>
       <pubDate>Fri, 13 Apr 2012 16:03:59 +0000</pubDate>
       
-      <guid>http://example.org/news/nagios-plugin-windows-server-dhcp-scopes-usage-monitoring/</guid>
+      <guid>https://liveaverage.github.io/news/nagios-plugin-windows-server-dhcp-scopes-usage-monitoring/</guid>
       <description>&lt;p&gt;I&amp;#8217;ve stumbled on a &lt;a title=&#34;Link to original check_dhcp_pool plug-in from Lars Michelsen&#34; href=&#34;http://nagios.larsmichelsen.com/check_dhcp_pool/&#34; target=&#34;_blank&#34;&gt;useful plug-in from Lars Michelsen&lt;/a&gt; that easily monitors a single Windows Server DHCP scope for usage using SNMPv2, but found this fell short of what I needed for monitoring several scopes at once. I&amp;#8217;ve modified Lars&amp;#8217; original plugin/script to accommodate all available DHCP scopes on your monitored Windows server. You no longer need to add separate service definitions to monitor all available scopes. It&amp;#8217;s worth noting a couple of important details:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -1082,10 +1082,10 @@ RETC=0&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Managing backup retention… with one line of Powershell</title>
-      <link>http://example.org/features/coding/managing-backup-retention-with-one-line-of-powershell/</link>
+      <link>https://liveaverage.github.io/features/coding/managing-backup-retention-with-one-line-of-powershell/</link>
       <pubDate>Wed, 30 Nov 2011 18:09:08 +0000</pubDate>
       
-      <guid>http://example.org/features/coding/managing-backup-retention-with-one-line-of-powershell/</guid>
+      <guid>https://liveaverage.github.io/features/coding/managing-backup-retention-with-one-line-of-powershell/</guid>
       <description>&lt;p&gt;Ok, I used four lines, but my needs for retention might be a bit more complex than most. I also spaced each pipeline command, so it looks longer than it should, but readability is important. Additionally, there&amp;#8217;s a good half-page of comments in the script than can safely be ignored, unless you &lt;em&gt;want&lt;/em&gt; to know what was going through my mind. Most of these related directly to my desired retention periods.&lt;/p&gt;
 
 &lt;p&gt;For testing purposes, the last two &amp;#8220;lines&amp;#8221; only print out the listing of files that would be deleted.&lt;/p&gt;
@@ -1179,10 +1179,10 @@ RETC=0&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>OpenFiler errors that only I seemed to experience…</title>
-      <link>http://example.org/features/coding/openfiler-errors-that-only-i-seemed-to-experience/</link>
+      <link>https://liveaverage.github.io/features/coding/openfiler-errors-that-only-i-seemed-to-experience/</link>
       <pubDate>Tue, 26 Jul 2011 16:51:03 +0000</pubDate>
       
-      <guid>http://example.org/features/coding/openfiler-errors-that-only-i-seemed-to-experience/</guid>
+      <guid>https://liveaverage.github.io/features/coding/openfiler-errors-that-only-i-seemed-to-experience/</guid>
       <description>&lt;p&gt;Well, I&amp;#8217;ve finally deployed some production Openfiler ESA 2.99.1 machines as home-brew iSCSI boxes, primarily used for backups or low-stress virtual storage. Yes, they&amp;#8217;re great &amp;#8212; my basic write speeds on a Core 2 Duo box (recycled Dell Precision 390 workstation with 2GB of RAM and a single 1TB drive *no* RAID):&lt;/p&gt;
 
 &lt;p&gt;[shell]&lt;/p&gt;
@@ -1241,10 +1241,10 @@ RETC=0&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Add ‘Submitted Tickets’ Listing Page for Joomla! RSTickets</title>
-      <link>http://example.org/features/coding/add-submitted-tickets-listing-page-for-joomla-rstickets/</link>
+      <link>https://liveaverage.github.io/features/coding/add-submitted-tickets-listing-page-for-joomla-rstickets/</link>
       <pubDate>Fri, 10 Jul 2009 17:15:21 +0000</pubDate>
       
-      <guid>http://example.org/features/coding/add-submitted-tickets-listing-page-for-joomla-rstickets/</guid>
+      <guid>https://liveaverage.github.io/features/coding/add-submitted-tickets-listing-page-for-joomla-rstickets/</guid>
       <description>&lt;p&gt;&lt;img class=&#34;alignright&#34; title=&#34;Joomla!&#34; src=&#34;http://cdn.joomla.org/images/logo.png&#34; alt=&#34;&#34; width=&#34;235&#34; height=&#34;46&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;If you haven&amp;#8217;t heard, &lt;a title=&#34;Check out the RSTickets! extension from RSJoomla!&#34; href=&#34;http://www.rsjoomla.com/joomla-components/rstickets.html&#34; target=&#34;_blank&#34;&gt;RSTickets!&lt;/a&gt; is an advanced Joomla! Help Desk ticketing system that allows you (or a team of yous) to manage and keep track of your clients&amp;#8217; issues. It&amp;#8217;s actually one of the few effective, useful Help Desk systems available for the Joomla! 1.5+ framework that I would personally recommend. Unfortunately, it&amp;#8217;s still under development and lacks certain features that one may desire, such as a read-only listing page that displays tickets already submitted to you or your department.&lt;/p&gt;
@@ -1356,10 +1356,10 @@ RETC=0&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Altermime, Postfix/Zimbra, and Headaches</title>
-      <link>http://example.org/features/coding/altermime-postfixzimbra-and-headaches/</link>
+      <link>https://liveaverage.github.io/features/coding/altermime-postfixzimbra-and-headaches/</link>
       <pubDate>Wed, 24 Jun 2009 19:43:11 +0000</pubDate>
       
-      <guid>http://example.org/features/coding/altermime-postfixzimbra-and-headaches/</guid>
+      <guid>https://liveaverage.github.io/features/coding/altermime-postfixzimbra-and-headaches/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;EDIT: I have since removed altermime after installing a MailScanner spam relay for our Zimbra server to use. Because, by default, MailScanner appends a default signature to all outbound email, it was very simple to modify the signature rules to accomodate our mandatory disclaimers for different domains.&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -1475,10 +1475,10 @@ RETC=0&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Bashing MySQL Dumps</title>
-      <link>http://example.org/features/coding/bashing-mysql-dumps/</link>
+      <link>https://liveaverage.github.io/features/coding/bashing-mysql-dumps/</link>
       <pubDate>Tue, 29 Jul 2008 14:45:14 +0000</pubDate>
       
-      <guid>http://example.org/features/coding/bashing-mysql-dumps/</guid>
+      <guid>https://liveaverage.github.io/features/coding/bashing-mysql-dumps/</guid>
       <description>&lt;p&gt;A quick set of batch scripts I wrote up (two of the three scripts, anyway) for dumping all of my (specified) MySQL databases into an archive for backup. The log mailing (&lt;strong&gt;emailsql.pl&lt;/strong&gt;)requires Perl and the MIME:Lite module to correctly function. I&amp;#8217;ve also utilized a wrapper script so the log outputs to a separate file [to be mailed]. There&amp;#8217;s also a &amp;#8216;dummy&amp;#8217; log file I use in my crontab file, though this isn&amp;#8217;t really necessary:&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;
@@ -1580,10 +1580,10 @@ RETC=0&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Perl my way to happiness</title>
-      <link>http://example.org/features/coding/perl-my-way-to-happiness/</link>
+      <link>https://liveaverage.github.io/features/coding/perl-my-way-to-happiness/</link>
       <pubDate>Fri, 25 Apr 2008 19:00:49 +0000</pubDate>
       
-      <guid>http://example.org/features/coding/perl-my-way-to-happiness/</guid>
+      <guid>https://liveaverage.github.io/features/coding/perl-my-way-to-happiness/</guid>
       <description>&lt;p&gt;If only everything was as easy &amp;amp; straight-forward as account provisioning in Zimbra:&lt;/p&gt;
 
 &lt;p&gt;[shell]!/usr/bin/perl&lt;/p&gt;

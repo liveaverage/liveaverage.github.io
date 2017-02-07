@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Check_mk on My New Hugo Site</title>
-    <link>http://example.org/categories/check_mk/index.xml</link>
-    <description>Recent content in Check_mk on My New Hugo Site</description>
+    <title>Check_mk on Live Average</title>
+    <link>https://liveaverage.github.io/categories/check_mk/index.xml</link>
+    <description>Recent content in Check_mk on Live Average</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://example.org/categories/check_mk/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://liveaverage.github.io/categories/check_mk/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Check_MK Environmental Monitoring: Room Alert 4E</title>
-      <link>http://example.org/features/infrastructure-management/check_mk-envrionmental-monitoring-room-alert-4e/</link>
+      <link>https://liveaverage.github.io/features/infrastructure-management/check_mk-envrionmental-monitoring-room-alert-4e/</link>
       <pubDate>Wed, 13 Aug 2014 16:32:32 +0000</pubDate>
       
-      <guid>http://example.org/features/infrastructure-management/check_mk-envrionmental-monitoring-room-alert-4e/</guid>
+      <guid>https://liveaverage.github.io/features/infrastructure-management/check_mk-envrionmental-monitoring-room-alert-4e/</guid>
       <description>&lt;p&gt;One of our Network Engineers needed some monitoring (internal temp, external temp, and external humidity) added for an &lt;a href=&#34;http://avtech.com/Products/Environment_Monitors/Room_Alert_4E.htm&#34; title=&#34;Room Alert 4e&#34;&gt;AVTech Room Alert 4E unit&lt;/a&gt;, preferably using a check_MK plugin. Couldn&amp;#8217;t find one in any repos or in git, so decided to add this to a growing collection of plugins I&amp;#8217;ve been working on. Another request from the same team: MinuteMan UPS units. I&amp;#8217;ll be adding to my &lt;a title=&#34;Check_MK_Bag&#34; href=&#34;https://github.com/liveaverage/check_mk_bag&#34; target=&#34;_blank&#34;&gt;check_mk_bag g&lt;/a&gt;it repo periodically with any new, custom check plugins. I&amp;#8217;ll also try to get these on &lt;a href=&#34;http://exchange.check-mk.org/&#34; target=&#34;_blank&#34;&gt;Check_MK&amp;#8217;s Exchange&lt;/a&gt;. For now, here&amp;#8217;s some environmental monitors, of course with perfdata output &amp;#8212; gotta have the metrics available for trending!&lt;/p&gt;
 
 &lt;p&gt;As typical with check_MK checks, this supports auto-inventory (scan function configured):&lt;/p&gt;

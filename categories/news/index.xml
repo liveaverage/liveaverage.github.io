@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>News on My New Hugo Site</title>
-    <link>http://example.org/categories/news/index.xml</link>
-    <description>Recent content in News on My New Hugo Site</description>
+    <title>News on Live Average</title>
+    <link>https://liveaverage.github.io/categories/news/index.xml</link>
+    <description>Recent content in News on Live Average</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://example.org/categories/news/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://liveaverage.github.io/categories/news/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>EDM Legends: Crystal Method 2014 – Orlando @Firestone Live</title>
-      <link>http://example.org/news/crystal-method-2014-orlando-firestone-live/</link>
+      <link>https://liveaverage.github.io/news/crystal-method-2014-orlando-firestone-live/</link>
       <pubDate>Mon, 05 May 2014 11:54:14 +0000</pubDate>
       
-      <guid>http://example.org/news/crystal-method-2014-orlando-firestone-live/</guid>
+      <guid>https://liveaverage.github.io/news/crystal-method-2014-orlando-firestone-live/</guid>
       <description>&lt;p&gt;&lt;img class=&#34;ngg_displayed_gallery mceItem&#34; src=&#34;http://liveaverage.com/nextgen-attach_to_post/preview/id--6412&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>One-person motorcycle loading</title>
-      <link>http://example.org/news/one-person-motorcycle-loading/</link>
+      <link>https://liveaverage.github.io/news/one-person-motorcycle-loading/</link>
       <pubDate>Mon, 24 Mar 2014 14:00:27 +0000</pubDate>
       
-      <guid>http://example.org/news/one-person-motorcycle-loading/</guid>
+      <guid>https://liveaverage.github.io/news/one-person-motorcycle-loading/</guid>
       <description>
 
 &lt;p&gt;&lt;a href=&#34;http://liveaverage.com/wp-content/themes/mimbo2.2/images/BG_Package-Medium.jpg&#34;&gt;&lt;img class=&#34;alignleft&#34; src=&#34;http://liveaverage.com/wp-content/themes/mimbo2.2/images/BG_Package-Medium-1024x682.jpg&#34; alt=&#34;BG_Package (Medium)&#34; width=&#34;257&#34; height=&#34;172&#34; /&gt;&lt;/a&gt;My wife is tiny&amp;#8230; 5 ft tiny&amp;#8230; Suffice it to say I needed a safe and easy way to load (and unload) my motorcycle without assistance. I researched the expensive solutions from LoadAll and deemed it unnecessarily complicated (with far too many moving parts) for my taste. I also didn&amp;#8217;t want to sacrifice my truck cargo space. I decided on the &lt;a title=&#34;Two different sizes, but both are plenty wide at 40 inches.&#34; href=&#34;http://www.discountramps.com/black-widow-motorcycle-ramp.htm&#34; target=&#34;_blank&#34;&gt;40&amp;#8243; wide, 8 ft. long Black Widow Ramp from DiscountRamps.com&lt;/a&gt; combined with the &lt;a title=&#34;Can&#39;t go wrong with the price on this motorcycle stand/chock.&#34; href=&#34;http://www.harborfreight.com/motorcycle-stand-wheel-chock-97841.html&#34; target=&#34;_blank&#34;&gt;Harbor Freight Motorcycle Stand/Wheel Chock&lt;/a&gt; (not permanently mounted &amp;#8212; temporarily secured with ratchet straps). Although I&amp;#8217;m only loading my 2007 GSXR600 (a whopping 354 lbs.) and occasionally my 2012 Hayabusa (still relatively light at 573 lbs.),  this ramp could easily handle my parents&amp;#8217; 2007 Harley FLHX Street Glide or 2012 Harley Sportster.&lt;/p&gt;
@@ -54,10 +54,10 @@
     
     <item>
       <title>Check_MK DFS Backlog Monitoring</title>
-      <link>http://example.org/news/check_mk-dfs-backlog-monitoring/</link>
+      <link>https://liveaverage.github.io/news/check_mk-dfs-backlog-monitoring/</link>
       <pubDate>Wed, 12 Feb 2014 14:29:23 +0000</pubDate>
       
-      <guid>http://example.org/news/check_mk-dfs-backlog-monitoring/</guid>
+      <guid>https://liveaverage.github.io/news/check_mk-dfs-backlog-monitoring/</guid>
       <description>&lt;figure id=&#34;attachment_3968&#34; style=&#34;width: 715px&#34; class=&#34;wp-caption alignright&#34;&gt;[&lt;img class=&#34;size-large wp-image-3968 &#34; alt=&#34;Screenshot of inventoried replicated folders and their corresponding backlog counts&#34; src=&#34;http://liveaverage.com/wp-content/themes/mimbo2.2/images/20131111_CheckMK_DFSRBacklog-1024x195.jpg&#34; width=&#34;715&#34; height=&#34;136&#34; srcset=&#34;http://liveaverage.com/wp-content/themes/mimbo2.2/images/20131111_CheckMK_DFSRBacklog-300x57.jpg 300w, http://liveaverage.com/wp-content/themes/mimbo2.2/images/20131111_CheckMK_DFSRBacklog-1024x195.jpg 1024w, http://liveaverage.com/wp-content/themes/mimbo2.2/images/20131111_CheckMK_DFSRBacklog.jpg 1232w&#34; sizes=&#34;(max-width: 715px) 100vw, 715px&#34; /&gt;][1]&lt;figcaption class=&#34;wp-caption-text&#34;&gt;Inventoried replicated folders and their corresponding backlog counts&lt;/figcaption&gt;&lt;/figure&gt; 
 
 &lt;p&gt;Before you even get started, make sure your Powershell execution policy is set to &lt;strong&gt;RemoteSigned &lt;/strong&gt;for your standard AND x86 Powershell console; Check_MK will generally execute PS scripts from the x86 console, so it&amp;#8217;s critical to set the policy for both:&lt;/p&gt;
@@ -151,10 +151,10 @@ Function PingCheck
     
     <item>
       <title>Nagios check_http problems with Microsoft System Center 2012 Endpoint Protection</title>
-      <link>http://example.org/news/nagios-check_http-problems-with-microsoft-system-center-2012-endpoint-protection/</link>
+      <link>https://liveaverage.github.io/news/nagios-check_http-problems-with-microsoft-system-center-2012-endpoint-protection/</link>
       <pubDate>Wed, 07 Nov 2012 22:25:03 +0000</pubDate>
       
-      <guid>http://example.org/news/nagios-check_http-problems-with-microsoft-system-center-2012-endpoint-protection/</guid>
+      <guid>https://liveaverage.github.io/news/nagios-check_http-problems-with-microsoft-system-center-2012-endpoint-protection/</guid>
       <description>&lt;p&gt;Someone important suggested this get posted &lt;em&gt;somewhere&lt;/em&gt; so that anyone else experiencing&lt;strong&gt; check_http&lt;/strong&gt; socket timeout problems with client/servers running Microsoft System Center 2012 Endpoint Protection would have a clue as to what could be causing issues:&lt;/p&gt;
 
 &lt;p&gt;If you&amp;#8217;re receiving strange/unexpected timeouts from the check_http plug-in when running it against a server using Microsoft System Center 2012 Endpoint Protection, the Network Inspection Service may be blocking your check attempt.&lt;/p&gt;
@@ -167,10 +167,10 @@ Function PingCheck
     
     <item>
       <title>Nagios Plugin: Windows Server DHCP Scopes Usage Monitoring</title>
-      <link>http://example.org/news/nagios-plugin-windows-server-dhcp-scopes-usage-monitoring/</link>
+      <link>https://liveaverage.github.io/news/nagios-plugin-windows-server-dhcp-scopes-usage-monitoring/</link>
       <pubDate>Fri, 13 Apr 2012 16:03:59 +0000</pubDate>
       
-      <guid>http://example.org/news/nagios-plugin-windows-server-dhcp-scopes-usage-monitoring/</guid>
+      <guid>https://liveaverage.github.io/news/nagios-plugin-windows-server-dhcp-scopes-usage-monitoring/</guid>
       <description>&lt;p&gt;I&amp;#8217;ve stumbled on a &lt;a title=&#34;Link to original check_dhcp_pool plug-in from Lars Michelsen&#34; href=&#34;http://nagios.larsmichelsen.com/check_dhcp_pool/&#34; target=&#34;_blank&#34;&gt;useful plug-in from Lars Michelsen&lt;/a&gt; that easily monitors a single Windows Server DHCP scope for usage using SNMPv2, but found this fell short of what I needed for monitoring several scopes at once. I&amp;#8217;ve modified Lars&amp;#8217; original plugin/script to accommodate all available DHCP scopes on your monitored Windows server. You no longer need to add separate service definitions to monitor all available scopes. It&amp;#8217;s worth noting a couple of important details:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -247,10 +247,10 @@ RETC=0&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Ripping Play.FM or SoundCloud Streams with Firefox and FlashGot</title>
-      <link>http://example.org/news/ripping-play-fm-streams-with-firefox-and-flashgot/</link>
+      <link>https://liveaverage.github.io/news/ripping-play-fm-streams-with-firefox-and-flashgot/</link>
       <pubDate>Tue, 09 Feb 2010 14:44:50 +0000</pubDate>
       
-      <guid>http://example.org/news/ripping-play-fm-streams-with-firefox-and-flashgot/</guid>
+      <guid>https://liveaverage.github.io/news/ripping-play-fm-streams-with-firefox-and-flashgot/</guid>
       <description>&lt;p&gt;&lt;img class=&#34;ngg-singlepic ngg-left alignleft&#34; alt=&#34;Play.FM Logo&#34; src=&#34;http://liveaverage.com/wp-content/gallery/article-images/logo_beta1.jpg&#34; width=&#34;150&#34; height=&#34;41&#34; /&gt;I&amp;#8217;ve recently stumbled across Play.FM, a flash-based music streaming service similar to Pandora but exclusively featuring Electronic and Dance Music. Friendly site with sensational tunes, but many of the songs, particularly those uploaded by independent DJs or artists, are not available for sale or download, making it difficult to listen on portable devices or offline. I tried the usual methods of download/capture for Flash-based music, but nothing was saved to my cache directory, and FreeMusicZilla detected no active streams&amp;#8230; I gave the popular FlashGot Firefox plug-in a try and found it to work &lt;em&gt;great&lt;/em&gt;. There was one catch: you have to hit play within the Flash player to capture the stream URL, then hit pause for the download to start. I assume Play.FM limits the number of active simultaneous connections from one computer/IP, so you&amp;#8217;ll need to toggle the player so FlashGot detects the MP3 URL, then download the file. Here&amp;#8217;s the quick breakdown on pulling a Play.FM stream:&lt;/p&gt;
 
 &lt;ol&gt;
@@ -264,10 +264,10 @@ RETC=0&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Getting Married Soon…</title>
-      <link>http://example.org/news/getting-married-soon/</link>
+      <link>https://liveaverage.github.io/news/getting-married-soon/</link>
       <pubDate>Thu, 04 Feb 2010 19:39:59 +0000</pubDate>
       
-      <guid>http://example.org/news/getting-married-soon/</guid>
+      <guid>https://liveaverage.github.io/news/getting-married-soon/</guid>
       <description>&lt;p&gt;I&amp;#8217;ve recently sent out invites for our [local] wedding ceremony/reception . Along with custom-designed invites (and RSVP cards), we&amp;#8217;ve created an informational website for attendees:&lt;/p&gt;
 
 &lt;p&gt;&lt;a title=&#34;Wedding of Victoria Lestz &amp; JR Morgan&#34; href=&#34;http://wedding.liveaverage.com&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://wedding.liveaverage.com&#34;&gt;http://wedding.liveaverage.com&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
@@ -278,10 +278,10 @@ RETC=0&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Accessing VMare Disks — without VMware Server or Workstation</title>
-      <link>http://example.org/news/accessing-vmare-disks-without-vmware-server-or-workstation/</link>
+      <link>https://liveaverage.github.io/news/accessing-vmare-disks-without-vmware-server-or-workstation/</link>
       <pubDate>Thu, 15 Oct 2009 14:23:59 +0000</pubDate>
       
-      <guid>http://example.org/news/accessing-vmare-disks-without-vmware-server-or-workstation/</guid>
+      <guid>https://liveaverage.github.io/news/accessing-vmare-disks-without-vmware-server-or-workstation/</guid>
       <description>&lt;p&gt;I spent more time than necessary looking for a VMware disk mount utility to use on a Linux-based distribution. For windows, there&amp;#8217;s the &lt;a href=&#34;http://www.vmware.com/download/eula/diskmount_ws_v55.html&#34; title=&#34;Download the VMWare DiskMount Utility&#34;&gt;VMWare Workstation Disk Mount Utility (5.5)&lt;/a&gt; that can installed with the &lt;a href=&#34;http://vmxbuilder.com/vmware-diskmount-gui/&#34; title=&#34;Download the GUI for the VMWare DiskMount Utility&#34;&gt;VMWare DiskMount GUI&lt;/a&gt;, but I couldn&amp;#8217;t find the simple &lt;strong&gt;vmware-mount.pl&lt;/strong&gt; program for Linux distros. Instead, I had to dig it out of a compatible VMWare Server package [for Linux], copy it to /usr/bin/ and create the necessary symlinks for operation. Here&amp;#8217;s a quick breakdown of the steps:&lt;/p&gt;
 
 &lt;ol&gt;
@@ -310,10 +310,10 @@ Go ahead and create this directory structure (beats installing the VMWare server
     
     <item>
       <title>Lenovo RS110 Review</title>
-      <link>http://example.org/news/lenovo-rs110-review/</link>
+      <link>https://liveaverage.github.io/news/lenovo-rs110-review/</link>
       <pubDate>Wed, 07 Oct 2009 15:34:01 +0000</pubDate>
       
-      <guid>http://example.org/news/lenovo-rs110-review/</guid>
+      <guid>https://liveaverage.github.io/news/lenovo-rs110-review/</guid>
       <description>&lt;p&gt;&lt;img class=&#34;size-medium wp-image-260     alignleft&#34; style=&#34;margin: 15px;&#34; title=&#34;Lenovo RS110 Server&#34; src=&#34;http://liveaverage.com/wp-content/themes/mimbo2.2/images/74840064-300x300-0-0_lenovors110xeonqcx33604gbsas331.jpg&#34; alt=&#34;Lenovo RS110 Server for SMBs&#34; width=&#34;210&#34; height=&#34;210&#34; srcset=&#34;http://liveaverage.com/wp-content/themes/mimbo2.2/images/74840064-300x300-0-0_lenovors110xeonqcx33604gbsas331-150x150.jpg 150w, http://liveaverage.com/wp-content/themes/mimbo2.2/images/74840064-300x300-0-0_lenovors110xeonqcx33604gbsas331.jpg 300w&#34; sizes=&#34;(max-width: 210px) 100vw, 210px&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I recently had the [unfortunate] opportunity of rolling-out (2) Lenovo RS110 servers targeted for SMBs. We seemed to fit the market for this relatively new Lenovo offering, but the product failed to meet the needs and expectations of my environment. The intention was to launch one of these two units with an Ubuntu/Debian-based Linux distribution to host our Zimbra mail server (currently residing virtual Ubuntu 6.06 LTS machine, with a host OS of Ubuntu 8.04 LTS 64-bit). Here&amp;#8217;s some brief hardware highlights:&lt;/p&gt;
@@ -440,10 +440,10 @@ Go ahead and create this directory structure (beats installing the VMWare server
     
     <item>
       <title>HID Ballast Mounting for 2008 Suzuki GSX650F</title>
-      <link>http://example.org/news/hid-ballast-mounting-for-2008-suzuki-gsx650f/</link>
+      <link>https://liveaverage.github.io/news/hid-ballast-mounting-for-2008-suzuki-gsx650f/</link>
       <pubDate>Tue, 24 Mar 2009 19:57:51 +0000</pubDate>
       
-      <guid>http://example.org/news/hid-ballast-mounting-for-2008-suzuki-gsx650f/</guid>
+      <guid>https://liveaverage.github.io/news/hid-ballast-mounting-for-2008-suzuki-gsx650f/</guid>
       <description>&lt;p&gt;Figured I’d post a few helpful pictures for any other GSXF enthusiasts looking to install HID lighting on their 2008 Suzuki GSX650F. I chose to use a pre-existing, pre-drilled location for mounting the HID ballasts. To make certain vibration and movement of the ballasts is kept to minimum I secured the mounting brackets directly to frame using heavy-duty zipties (two ties for each ballast bracket). You will need to drill holes in &lt;em&gt;both&lt;/em&gt; plastic caps. However, I ended up cutting and later butt-splicing the HID power connector for the low-beam because the hole size required was too large for the small size of the weather proof fixture cover. &lt;em&gt;Make certain your weather seals (if included with the kit) fit snuggly in the hole(s) you drilled:&lt;/em&gt;&amp;#160;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://liveaverage.com/wp-content/themes/mimbo2.2/images/img-05041.jpg&#34;&gt;&lt;img title=&#34;IMG_0504&#34; style=&#34;border-right: 0px; border-top: 0px; display: inline; border-left: 0px; border-bottom: 0px&#34; height=&#34;143&#34; alt=&#34;IMG_0504&#34; src=&#34;http://liveaverage.com/wp-content/themes/mimbo2.2/images/img-0504-thumb1.jpg&#34; width=&#34;97&#34; border=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://liveaverage.com/wp-content/themes/mimbo2.2/images/img-05071.jpg&#34;&gt;&lt;img title=&#34;IMG_0507&#34; style=&#34;border-right: 0px; border-top: 0px; display: inline; border-left: 0px; border-bottom: 0px&#34; height=&#34;143&#34; alt=&#34;IMG_0507&#34; src=&#34;http://liveaverage.com/wp-content/themes/mimbo2.2/images/img-0507-thumb1.jpg&#34; width=&#34;212&#34; border=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://liveaverage.com/wp-content/themes/mimbo2.2/images/img-0508.jpg&#34;&gt;&lt;img title=&#34;IMG_0508&#34; style=&#34;border-right: 0px; border-top: 0px; display: inline; border-left: 0px; border-bottom: 0px&#34; height=&#34;144&#34; alt=&#34;IMG_0508&#34; src=&#34;http://liveaverage.com/wp-content/themes/mimbo2.2/images/img-0508-thumb.jpg&#34; width=&#34;97&#34; border=&#34;0&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -456,10 +456,10 @@ Go ahead and create this directory structure (beats installing the VMWare server
     
     <item>
       <title>Modded GSX650F (Fender Chop)</title>
-      <link>http://example.org/news/modded-gsx650f-fender-chop/</link>
+      <link>https://liveaverage.github.io/news/modded-gsx650f-fender-chop/</link>
       <pubDate>Wed, 18 Feb 2009 18:47:35 +0000</pubDate>
       
-      <guid>http://example.org/news/modded-gsx650f-fender-chop/</guid>
+      <guid>https://liveaverage.github.io/news/modded-gsx650f-fender-chop/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://liveaverage.com/wp-content/themes/mimbo2.2/images/img-0513medium.jpg&#34;&gt;&lt;img style=&#34;border-right: 0px; border-top: 0px; display: inline; border-left: 0px; border-bottom: 0px&#34; title=&#34;IMG_0513 (Medium)&#34; src=&#34;http://liveaverage.com/wp-content/themes/mimbo2.2/images/img-0513medium-thumb.jpg&#34; border=&#34;0&#34; alt=&#34;IMG_0513 (Medium)&#34; width=&#34;244&#34; height=&#34;164&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://liveaverage.com/wp-content/themes/mimbo2.2/images/img-0510medium.jpg&#34;&gt;&lt;img style=&#34;border-right: 0px; border-top: 0px; display: inline; border-left: 0px; border-bottom: 0px&#34; title=&#34;IMG_0510 (Medium)&#34; src=&#34;http://liveaverage.com/wp-content/themes/mimbo2.2/images/img-0510medium-thumb.jpg&#34; border=&#34;0&#34; alt=&#34;IMG_0510 (Medium)&#34; width=&#34;244&#34; height=&#34;164&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;I posted a quick how-to on installing the LED tail light, which will soon be followed up on a fender chop ‘how-to.’ Here’s some final pics of my bike (post mods). I also added a HID kit for better night-time driving.&lt;/p&gt;
@@ -468,10 +468,10 @@ Go ahead and create this directory structure (beats installing the VMWare server
     
     <item>
       <title>How to: GSX650F LED Tail Light Upgrade</title>
-      <link>http://example.org/news/how-to-gsx650f-led-tail-light-upgrade/</link>
+      <link>https://liveaverage.github.io/news/how-to-gsx650f-led-tail-light-upgrade/</link>
       <pubDate>Wed, 18 Feb 2009 00:09:36 +0000</pubDate>
       
-      <guid>http://example.org/news/how-to-gsx650f-led-tail-light-upgrade/</guid>
+      <guid>https://liveaverage.github.io/news/how-to-gsx650f-led-tail-light-upgrade/</guid>
       <description>&lt;p&gt;I’ve been wanting to upgrade the stock tail light on my Suzuki GSX650F for some time now. I was hoping an upgrade might precede a quick fender chop to rid the bike of that hideous plastic dragging the aesthetics down. The deed has finally been done (both the tail light upgrade AND the fender chop). Here’s how:&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;UPGRADING THE GSX650F TAIL LIGHT:&lt;/strong&gt;&lt;/p&gt;
@@ -516,10 +516,10 @@ Go ahead and create this directory structure (beats installing the VMWare server
     
     <item>
       <title>Only wiring left…</title>
-      <link>http://example.org/news/only-wiring-left/</link>
+      <link>https://liveaverage.github.io/news/only-wiring-left/</link>
       <pubDate>Tue, 10 Feb 2009 22:28:38 +0000</pubDate>
       
-      <guid>http://example.org/news/only-wiring-left/</guid>
+      <guid>https://liveaverage.github.io/news/only-wiring-left/</guid>
       <description>&lt;p&gt;[nggallery id=&amp;ldquo;1&amp;rdquo;]&lt;/p&gt;
 
 &lt;p&gt;After lots of tedious taping for the PCB (Printed Circuit Board) patterns on the fairings + tank, Chad @ WetLixx completed a full re-design of my 2008 GSX650F. It got a great reception from other GSX650F riders (&lt;a title=&#34;Great feedback from the GSX650F Forum&#34; href=&#34;http://www.gsx650f.biz/custom-paint-job-circuit-tech-look-2008-gsx650f-t1085.html&#34; target=&#34;_blank&#34;&gt;as found here: &lt;a href=&#34;http://www.gsx650f.biz/custom-paint-job-circuit-tech-look-2008-gsx650f-t1085.html&#34;&gt;http://www.gsx650f.biz/custom-paint-job-circuit-tech-look-2008-gsx650f-t1085.html&lt;/a&gt;&lt;/a&gt;). I&amp;#8217;ll grab some more pictures of the bike once I finish hard-wiring my brain to the throttle for more instantaneous response times =)&lt;/p&gt;
@@ -528,10 +528,10 @@ Go ahead and create this directory structure (beats installing the VMWare server
     
     <item>
       <title>GSX650F Gets a fresh coat</title>
-      <link>http://example.org/news/gsx650f-gets-a-fresh-coat/</link>
+      <link>https://liveaverage.github.io/news/gsx650f-gets-a-fresh-coat/</link>
       <pubDate>Wed, 04 Feb 2009 14:53:00 +0000</pubDate>
       
-      <guid>http://example.org/news/gsx650f-gets-a-fresh-coat/</guid>
+      <guid>https://liveaverage.github.io/news/gsx650f-gets-a-fresh-coat/</guid>
       <description>&lt;p&gt;&lt;/p&gt;&lt;/p&gt;
 
 &lt;div class=&#34;wlWriterEditableSmartContent&#34; id=&#34;scid:8747F07C-CDE8-481f-B0DF-C6CFD074BF67:2c727455-5abf-4088-a297-9fe67bf2b7da&#34; style=&#34;padding-right: 0px; display: inline; padding-left: 0px; float: left; padding-bottom: 0px; margin: 0px; padding-top: 0px&#34;&gt;
@@ -544,10 +544,10 @@ Go ahead and create this directory structure (beats installing the VMWare server
     
     <item>
       <title>WetLixx Custom Design &amp; Paint</title>
-      <link>http://example.org/news/wetlixx-custom-design-paint/</link>
+      <link>https://liveaverage.github.io/news/wetlixx-custom-design-paint/</link>
       <pubDate>Tue, 27 Jan 2009 16:41:29 +0000</pubDate>
       
-      <guid>http://example.org/news/wetlixx-custom-design-paint/</guid>
+      <guid>https://liveaverage.github.io/news/wetlixx-custom-design-paint/</guid>
       <description>&lt;p&gt;My very talented friend at WetLixx (&lt;a href=&#34;http://www.wetlixx.com&#34;&gt;http://www.wetlixx.com&lt;/a&gt;) decided to promote his dynamic art work (on a variety of cars, trucks, motorcycles, golf carts, etc.) by collaborating on a new, custom web showcase for his past and current projects. His primary focus is custom designs and paint jobs on motorcycles (cruiser and sportbike varieties) and golf carts, but he&amp;#8217;s established himself as an accomplished artist on all mediums. Be sure to check out his site if you&amp;#8217;re in the market for some &amp;#8216;moving art,&amp;#8217; on your vehicle.&lt;/p&gt;
 </description>
     </item>

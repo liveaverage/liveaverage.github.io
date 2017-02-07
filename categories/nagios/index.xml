@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nagios on My New Hugo Site</title>
-    <link>http://example.org/categories/nagios/index.xml</link>
-    <description>Recent content in Nagios on My New Hugo Site</description>
+    <title>Nagios on Live Average</title>
+    <link>https://liveaverage.github.io/categories/nagios/index.xml</link>
+    <description>Recent content in Nagios on Live Average</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://example.org/categories/nagios/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://liveaverage.github.io/categories/nagios/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Check_MK: Local Checks Grab Bag!</title>
-      <link>http://example.org/features/coding/check_mk-local-checks-grab-bag/</link>
+      <link>https://liveaverage.github.io/features/coding/check_mk-local-checks-grab-bag/</link>
       <pubDate>Tue, 29 Jul 2014 15:32:29 +0000</pubDate>
       
-      <guid>http://example.org/features/coding/check_mk-local-checks-grab-bag/</guid>
+      <guid>https://liveaverage.github.io/features/coding/check_mk-local-checks-grab-bag/</guid>
       <description>&lt;p&gt;Some local Check_MK checks that were created to execute check_MK local check scripts (Powershell) in 64-bit context, monitor Exchange 2007 health (Storage Group replication status, Log Truncation after backups, etc.), and monitor DNS scavenging on Windows servers:&lt;/p&gt;
 
 &lt;div class=&#34;code-embed-wrapper&#34;&gt;
@@ -86,10 +86,10 @@ $global:n_stattext = &#34;&#34;
     
     <item>
       <title>Extending Check_MK MySQL Status Output</title>
-      <link>http://example.org/features/infrastructure-management/extending-check_mk-mysql-status-output/</link>
+      <link>https://liveaverage.github.io/features/infrastructure-management/extending-check_mk-mysql-status-output/</link>
       <pubDate>Mon, 25 Mar 2013 14:44:21 +0000</pubDate>
       
-      <guid>http://example.org/features/infrastructure-management/extending-check_mk-mysql-status-output/</guid>
+      <guid>https://liveaverage.github.io/features/infrastructure-management/extending-check_mk-mysql-status-output/</guid>
       <description>&lt;p&gt;If you need more output than what the existing &lt;a title=&#34;Check_MK Plugin: Check of MySQL Variables&#34; href=&#34;http://exchange.check-mk.org/index.php?option=com_remository&amp;Itemid=59&amp;func=fileinfo&amp;id=20&#34; target=&#34;_blank&#34;&gt;Check of MySQL Status Variables&lt;/a&gt; includes, such as &lt;em&gt;Seconds_Behind_Master&lt;/em&gt; or &lt;em&gt;Relay_Log_Pos&lt;/em&gt;, consider adding a quick line to the bash call for _mysql&lt;em&gt;status&lt;/em&gt; on the agent. This assumes you&amp;#8217;ve installed themysql_status-1.0.1.mkp and deployed the necessary agent files to the servers you&amp;#8217;d like to monitor. This also assumes you&amp;#8217;ve correctly configured the credentials needed to run the plugin and successfully receive (standard) output from the agent plugin.&lt;/p&gt;
 
 &lt;p&gt;Now to get Slave Status information from the same plugin:&lt;/p&gt;
@@ -193,10 +193,10 @@ $global:n_stattext = &#34;&#34;
     
     <item>
       <title>Nagios check_http problems with Microsoft System Center 2012 Endpoint Protection</title>
-      <link>http://example.org/news/nagios-check_http-problems-with-microsoft-system-center-2012-endpoint-protection/</link>
+      <link>https://liveaverage.github.io/news/nagios-check_http-problems-with-microsoft-system-center-2012-endpoint-protection/</link>
       <pubDate>Wed, 07 Nov 2012 22:25:03 +0000</pubDate>
       
-      <guid>http://example.org/news/nagios-check_http-problems-with-microsoft-system-center-2012-endpoint-protection/</guid>
+      <guid>https://liveaverage.github.io/news/nagios-check_http-problems-with-microsoft-system-center-2012-endpoint-protection/</guid>
       <description>&lt;p&gt;Someone important suggested this get posted &lt;em&gt;somewhere&lt;/em&gt; so that anyone else experiencing&lt;strong&gt; check_http&lt;/strong&gt; socket timeout problems with client/servers running Microsoft System Center 2012 Endpoint Protection would have a clue as to what could be causing issues:&lt;/p&gt;
 
 &lt;p&gt;If you&amp;#8217;re receiving strange/unexpected timeouts from the check_http plug-in when running it against a server using Microsoft System Center 2012 Endpoint Protection, the Network Inspection Service may be blocking your check attempt.&lt;/p&gt;
